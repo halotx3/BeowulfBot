@@ -1,0 +1,24 @@
+{
+  "name": "beowulfbot",
+  "version": "0.1.0",
+  "description": "Discord bot for SV",
+  "main": "ridge.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halotx3/BeowulfBot.git"
+  },
+  "keywords": [],
+  "author": "Tsar Halotx3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halotx3/BeowulfBot/issues"
+  },
+  "homepage": "https://github.com/halotx3/BeowulfBot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "eslint": "^6.7.1"
+  }
+}

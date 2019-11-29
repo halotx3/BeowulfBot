@@ -19,6 +19,7 @@
   "homepage": "https://github.com/halotx3/BeowulfBot#readme",
   "dependencies": {
     "discord.js": "^11.5.1",
-    "eslint": "^6.7.1"
+    "eslint": "^6.7.1",
+    "node-cron": "^2.0.3"
   }
 }

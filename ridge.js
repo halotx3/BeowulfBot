@@ -13,7 +13,15 @@ client.once('ready', () => {
 client.on('message', message => {
 	if (message.content === `${prefix}ping`) {
 		// send back "Pong." to the channel the message was sent in
+		console.log(message.author);
 		message.channel.send('Pong.');
+	}
+	else if (message.content === `${prefix}pong`) {
+		// send back "Pong." to the channel the message was sent in
+		console.log(message.author.username);
+		console.log(message.member._roles);
+
+		message.channel.send('Cyka blyat!');
 	}
 });
 // login to Discord with your app's token
